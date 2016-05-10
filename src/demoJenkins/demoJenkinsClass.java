@@ -10,7 +10,7 @@ public class demoJenkinsClass {
 	public void testJenkins(){
 		
 		System.out.println("Welcome to Jenkins world");
-		
+		System.out.println("New script line");
 		WebDriver driver= new FirefoxDriver();
 		driver.get("http://www.facebook.com");
 		System.out.println(driver.getTitle());
