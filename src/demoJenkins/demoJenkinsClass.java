@@ -9,6 +9,8 @@ public class demoJenkinsClass {
 	@Test
 	public void testJenkins(){
 		
+		System.out.println(1);
+		System.out.println(2);
 		System.out.println("Welcome to Jenkins world");
 		System.out.println("New script line");
 		WebDriver driver= new FirefoxDriver();
